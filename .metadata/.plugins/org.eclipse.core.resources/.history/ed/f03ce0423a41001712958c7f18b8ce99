@@ -1,0 +1,57 @@
+package com.Machinery;
+
+import java.util.Scanner;
+
+public class Machines {
+	
+	static String Option;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Movements m = new Movements();
+		
+		System.out.println("Please select any one option from the following.....");
+		System.out.println("1.Red");
+		System.out.println("2.Blue");
+		System.out.println("3.Green");
+		System.out.println("4.Yellow");
+		
+		
+		Scanner sc = new Scanner(System.in);
+		Option =sc.nextLine();
+		
+
+		
+		switch(Option)
+		{
+		case "Red":
+		{
+			m.Red();
+		}
+		break;
+		case "Blue":
+		{
+			m.Blue();
+		}
+		break;
+		case "Green":
+		{
+			m.Green();
+		}
+		break;
+		case "Yellow":
+		{
+			m.Yellow();
+		}
+		break;
+		default :
+		{
+		System.out.println("Invalid option");
+		
+		
+		}
+		
+	}
+
+}
+}

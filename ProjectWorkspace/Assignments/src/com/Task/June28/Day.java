@@ -1,0 +1,3 @@
+package com.Task.June28;
+
+public enum Day {MONDAY,TUESDAY,WEDNESDAY,THURSDAY,FRIDAY,SATURDAY,SUNDAY;}

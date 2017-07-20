@@ -1,0 +1,15 @@
+package practice;
+
+public class GetUrl {
+
+	public static void main(String[] args) throws Exception {
+		Url u;
+		Scanner s;
+		u = new URL("http://www.vnrvjiet.ac.in");
+		s = new Scanner(u.openStream());
+		while(s.hasNext()){
+			System.out.println
+		}
+	}
+
+}
