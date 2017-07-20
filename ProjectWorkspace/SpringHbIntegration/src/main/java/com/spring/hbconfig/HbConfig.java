@@ -29,7 +29,7 @@ public class HbConfig {
 		dataSource.setDriverClassName("org.h2.Driver");
 		dataSource.setUrl("jdbc:h2:tcp://localhost/~/test");
 		dataSource.setUsername("sa");
-		dataSource.setPassword("");
+		dataSource.setPassword(""); 
 		System.out.println("Datasource");
 		return dataSource;
 

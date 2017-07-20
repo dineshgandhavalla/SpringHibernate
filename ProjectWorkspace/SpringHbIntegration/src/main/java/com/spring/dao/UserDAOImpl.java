@@ -20,7 +20,7 @@ public class UserDAOImpl implements UserDAO {
 	
 	public UserDAOImpl(SessionFactory sessionFactory)
 	{
-		this.sessionFactory=sessionFactory;
+		this.sessionFactory=sessionFactory; 
 		
 	}
 	
